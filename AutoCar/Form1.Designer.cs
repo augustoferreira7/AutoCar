@@ -98,13 +98,14 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AutoCar.Properties.Resources.civic_c;
-            this.pictureBox2.Location = new System.Drawing.Point(39, 74);
+            this.pictureBox2.Location = new System.Drawing.Point(246, 307);
             this.pictureBox2.MinimumSize = new System.Drawing.Size(5, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // comboBox1
             // 
